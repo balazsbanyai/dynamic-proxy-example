@@ -1,4 +1,4 @@
-
+package simple
 class LoggedSdk2(val delegate: Sdk): Sdk {
     override fun greeting(argument: String): String = logged("greeting", listOf(argument)) {
         delegate.greeting(argument)

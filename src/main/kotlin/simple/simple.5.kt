@@ -1,3 +1,5 @@
+package simple
+
 import java.lang.reflect.InvocationHandler
 import java.lang.reflect.Proxy
 

@@ -1,3 +1,5 @@
+package simple
+
 interface Sdk {
     fun greeting(argument: String): String
 }
